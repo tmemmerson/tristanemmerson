@@ -1,0 +1,15 @@
+body {
+  /*   background-image: url("https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/UnderConstructionGreen.jpg");
+ */
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: rgb(97, 172, 13);
+}
+
+p {
+  font-family: osw;
+}
+
+.trans {
+  opacity: 0.8;
+}
