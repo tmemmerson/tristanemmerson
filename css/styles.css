@@ -35,11 +35,11 @@ p {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #008cba;
+  background-color: #3a3a3a;
 }
 
 .x:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .Hovertext {
@@ -52,4 +52,9 @@ p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.repotext {
+  font-family: "Courier Prime", monospace;
+  font-size: medium;
 }
