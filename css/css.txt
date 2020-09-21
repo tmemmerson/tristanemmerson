@@ -1,0 +1,69 @@
+<div class="images-selector">
+ 
+  <label for="duck" class="img-card img1"></label>
+  
+  <label for="dog" class="img-card img2"></label>
+  
+  <label for="cat" class="img-card img3"></label>
+ 
+  <label for="cow" class="img-card img4"></label>
+</div>
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+
+.img-card {
+  display: inline-block;
+  width: 300px;
+  height: 409px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  filter: grayscale(1) opacity(.8);
+}
+
+.img-card:hover {
+  filter: grayscale(0) opacity(1);
+/*   box-shadow:  0px 8px 4px rgba(0, 0, 0, 0.3),
+               0px 10px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.img-card::before,
+.img-card::after {
+  transform: scaleY(-1);
+}
+
+/*reflection*/
+
+
+/*fade reflection*/
+
+
+.img1 {
+  background-image: url(https://coding-assets.s3-us-west-2.amazonaws.com/portfolio/projects/portfolio-project-images-Mortal-Kombat.png);
+}
+
+.img2 {
+  background-image: url(https://coding-assets.s3-us-west-2.amazonaws.com/portfolio/projects/portfolio-project-images-MakeMeTakeMeReadMe.png);
+}
+
+.img3 {
+  background-image: url(https://coding-assets.s3-us-west-2.amazonaws.com/portfolio/projects/portfolio-project-images-Interstellar-Relocation.png);
+}
+
+.img4 {
+  background-image: url(https://coding-assets.s3-us-west-2.amazonaws.com/portfolio/projects/portfolio-project-images-Pokemon.png);
+}
