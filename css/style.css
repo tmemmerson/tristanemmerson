@@ -165,11 +165,48 @@ body {
 
 .filter li {
   display: inline-block;
-  padding: 5px;
+  padding: 8px;
 }
 
 .filter .current {
   background-color: darkcyan;
   border-color: darkcyan;
   color: white;
+}
+
+
+.itemsContainer {
+  width: 100%
+}
+
+.items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.items li img {
+  width: 100%;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.icons {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -20px auto 0 -47px;
+  text-align: center;
+  z-index: 3;
+}
+
+.items .icons i {
+  color: white;
+  font-size: 20px;
+  margin-top: 9px;
 }
