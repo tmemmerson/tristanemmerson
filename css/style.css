@@ -111,3 +111,16 @@ body {
 .squareInnerContainer:after {
   left: 0px;
 }
+
+.squareContent h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color:darkcyan;
+}
+
+.squareContent h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}
