@@ -34,3 +34,8 @@
 .section {
   padding: 100px 0;
 }
+
+.aboutImage {
+  max-width: 100%;
+  
+}
