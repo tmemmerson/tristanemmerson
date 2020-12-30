@@ -1,3 +1,9 @@
+body {
+  font-size: 14px;
+  color: #333333;
+  background-color: #ffffff;
+  letter-spacing: 1px;
+}
 .overlay {
   width: 100%;
   height: 100%;
@@ -37,5 +43,12 @@
 
 .aboutImage {
   max-width: 100%;
-  
+
+}
+
+.skillSection {
+  background-color: darkcyan;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
