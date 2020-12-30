@@ -36,10 +36,7 @@ $(document).ready(function() {
 				},
 				938:{
 					items:4
-			},
-			1000:{
-				items:5
-		}
+			}
 		}
 });
 
