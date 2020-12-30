@@ -82,3 +82,32 @@ body {
 .chart .percent:after{
   content: '%';
 }
+
+.squareItem {
+  margin-top: 30px;
+  position: relative;
+}
+
+.squareInnerContainer {
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
+}
+.squareInnerContainer:after,
+.squareInnerContainer:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border-bottom: 2px solid #444;
+}
+
+.squareInnerContainer:before {
+  right: 0px;
+}
+
+.squareInnerContainer:after {
+  left: 0px;
+}
