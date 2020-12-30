@@ -76,5 +76,8 @@ body {
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
+}
 
+.chart .percent:after{
+  content: '%';
 }
