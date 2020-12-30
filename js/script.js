@@ -19,7 +19,7 @@ $(document).ready(function() {
 		startDelay: 1000,
 		showCursor: false,
 	});
-	
+
 	$('.owl-carousel').owlCarousel({
 		loop:true,
 		margin:10,
@@ -36,4 +36,11 @@ $(document).ready(function() {
 				}
 		}
 });
+
+$('.chart').easyPieChart({
+
+});
+
+
+
 })
