@@ -40,19 +40,21 @@ $(document).ready(function() {
 		}
 });
 
-$('.chart').easyPieChart({
-	easing: 'easeInOut',
-	barColor: 'white',
-	trackColor: 'grey',
-	scaleColor: false,
-	lineWidth: 4,
-	size: 152,
-	onStep: function(from, to, percent) {
-		$(this.el).find('.percent').text(Math.round(percent));
+var skillsTopOffset = $(".skillSection").offset().top;
+$(window).scroll(function(){
+
+	if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+		$('.chart').easyPieChart({
+			easing: 'easeInOut',
+			barColor: 'white',
+			trackColor: 'grey',
+			scaleColor: false,
+			lineWidth: 4,
+			size: 152,
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percent').text(Math.round(percent));
+			}	
+		});
 	}
-
 });
-
-
-
-})
+});

@@ -55,6 +55,7 @@ body {
 
 .skill {
   text-align: center;
+  margin-left: 10px;
 }
 
 .chart {
@@ -62,7 +63,7 @@ body {
   width: 152px;
   height: 152px;
   display: inline-block;
-  margin-left: 25px;
+
 }
 
 .chart canvas {
