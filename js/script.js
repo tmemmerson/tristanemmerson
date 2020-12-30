@@ -41,6 +41,8 @@ $(document).ready(function() {
 });
 
 var skillsTopOffset = $(".skillSection").offset().top;
+var statTopOffset = $(".statsSection").offset().top;
+var countUpFinished = false;
 $(window).scroll(function(){
 
 	if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
@@ -56,13 +58,16 @@ $(window).scroll(function(){
 			}	
 		});
 	}
+	if(!countUpFinished && window.pageYOffset > statTopOffset - $(window).height() + 200) {
+		$(".counter").each(function() {
+			var element = $(this);
+			var endVal = parseInt(element.text());
+
+			element.countup(endVal);
+		})
+
+		countUpFinished = true;
+
+	}
 });
-
-$(".counter").each(function(){
-	var element = $(this);
-	var endVal = parseInt(element.text());
-
-	element.countup(endVal);
-});
-
 });
