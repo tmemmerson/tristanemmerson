@@ -52,3 +52,29 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
 }
+
+.skill {
+  text-align: center;
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+  color: 'black';
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+
+}
