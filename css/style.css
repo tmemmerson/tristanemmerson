@@ -302,3 +302,8 @@ body {
 .navbar-brand, .navbar-brand:hover {
   color: white;
 }
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
