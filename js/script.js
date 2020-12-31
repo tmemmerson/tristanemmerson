@@ -78,5 +78,9 @@ $(".items").isotope({
 		easing: 'linear',
 		queue: false
 	}
-})
+});
+	$("filters a").click(function(){
+		$("#filters .current").removeClass("current");
+		$(this).addClass("current");
+	})
 });
