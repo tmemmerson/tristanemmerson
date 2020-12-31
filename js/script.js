@@ -97,18 +97,21 @@ $(".items").isotope({
 		return false;
 	})
 
-const nav = $("#navigation");
-const navTop = nav.offset().top;
-$(window).on("scroll", stickyNavigation);
+	const nav = $("#navigation");
+	const navTop = nav.offset().top;
 
-function stickyNavigation() {
-	var body = $("body");
+	$(window).on("scroll", stickyNavigation);
+	function stickyNavigation() {
+		var body = $("body");
+		if($(window).scrollTop() >= navTop) {
+			body.css("padding-top", nav.outerHeight() + "px");
+			body.addClass("fixedNav");
+		}
+		else {
+			body.css("padding-top", 0);
+			body.removeClass("fixedNav");
+		}
+	}
 
-	if($(window).scrollTop() >= navTop) {
-		body.addClass("fixedNav");
-	}
-	else {
-		body.removeClass("fixedNav");
-	}
-}
 });
+
