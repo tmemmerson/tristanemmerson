@@ -217,11 +217,11 @@ body {
   background-color: darkcyan;
   position: relative;
   display: inline-block;
-  -webkit-transition: all 0.5s linear 0.5s;
-  -moz-transition: all 0.5s linear 0.5s;
-  -o-transition: all 0.5s linear 0.5s;
-  -ms-transition: all 0.5s linear 0.5s;
-  transition: all 0.5s linear 0.5s;
+  -webkit-transition: all 0.2s linear 0.2s;
+  -moz-transition: all 0.2s linear 0.2s;
+  -o-transition: all 0.2s linear 0.2s;
+  -ms-transition: all 0.2s linear 0.2s;
+  transition: all 0.2s linear 0.2s;
 }
 
 .items .imageOverlay {
@@ -233,11 +233,11 @@ body {
   right: 0px;
   opacity: 0;
   
-  -webkit-transition: all 0.5s linear 0.5s;
-  -moz-transition: all 0.5s linear 0.5s;
-  -o-transition: all 0.5s linear 0.5s;
-  -ms-transition: all 0.5s linear 0.5s;
-  transition: all 0.5s linear 0.5s;
+  -webkit-transition: all 0.2s linear 0.2s;
+  -moz-transition: all 0.2s linear 0.23s;
+  -o-transition: all 0.2s linear 0.2s;
+  -ms-transition: all 0.2s linear 0.2s;
+  transition: all 0.2s linear 0.2s;
 }
 
 .items .item:hover .imageOverlay {
