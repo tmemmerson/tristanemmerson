@@ -274,3 +274,13 @@ body {
   -ms-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
 }
+
+.copyrightSection {
+  background-color: #333;
+  color: white;
+  padding: 30px 10px;
+}
+
+.copyrightSection p{
+  margin: 0;
+}
