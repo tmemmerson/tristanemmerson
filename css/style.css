@@ -284,3 +284,21 @@ body {
 .copyrightSection p{
   margin: 0;
 }
+
+#navigation {
+  background-color: darkcyan;
+  padding: 20px 10px;
+  z-index:99;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: white;
+}
+
+.navbar-brand, .navbar-brand:hover {
+  color: white;
+}
