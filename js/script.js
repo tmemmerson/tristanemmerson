@@ -20,7 +20,7 @@ $(document).ready(function() {
 	});
 	
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer", "Web Developer", "Dad", "Graphic Designer", "Entrepreneur", "Artist"],
+		strings: ["Programmer", "Web Developer", "Dad", "Graphic Designer", "Entrepreneur", "Artist"],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
