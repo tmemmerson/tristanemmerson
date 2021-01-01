@@ -93,9 +93,6 @@ $("#filters a").click(function() {
 	$(this).addClass("current");
 
 	var selector = $(this).attr("data-filter");
-
-
-
 	return false;
 });
 
