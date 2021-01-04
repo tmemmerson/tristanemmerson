@@ -135,7 +135,7 @@ body {
   height: 60px;
   font-size: 45px;
   margin-left: -20%;
-  color: red;
+  color: rgb(98, 185, 27);
 }
 
 .contactButton {
@@ -149,7 +149,7 @@ body {
 
 .contactButton:hover {
   text-decoration: none;
-  color: red;
+  color:rgb(68, 131, 190);
   background-color: #fff;
 }
 
