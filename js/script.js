@@ -22,7 +22,7 @@ $(document).ready(function() {
 	});
 	
 	var typed = new Typed(".typed", {
-		strings: ["Programmer", "Web Developer", "Dad", "Graphic Designer", "Entrepreneur", "Artist"],
+		strings: ["Programmer", "Web Developer", "Father", "Graphic Designer", "Entrepreneur", "Artist"],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
