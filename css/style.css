@@ -310,3 +310,11 @@ body {
   position: fixed;
   top: 0;
 }
+
+.loveIcon {
+  color: red;
+}
+
+.heading {
+  text-align: center;
+}
